@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #374151;
+    margin-top: 30px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background: #1d4ed8;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: #2563eb;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+
+a:hover {
+    background: #1d4ed8;
+}
+
+.logout {
+    background: #dc2626 !important;
+}
+
+.logout:hover {
+    background: #b91c1c !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+th {
+    background: #2563eb;
+    color: white;
+    padding: 13px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+tr:hover {
+    background: #eef4ff;
+}
+
+.action-links a {
+    background: transparent;
+    color: #2563eb;
+    padding: 0;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.action-links a:hover {
+    background: transparent;
+    color: #1d4ed8;
+}
+
+p {
+    line-height: 1.6;
+}
