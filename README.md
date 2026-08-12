@@ -1,113 +1,28 @@
-# Student Management System (CRUD)
+🚀 Successfully completed Task 2 of my Web Development Internship at ApexPlanet Software Pvt. Ltd.
 
-## 📌 Project Overview
+For this task, I developed a Student Notes Management System using PHP and MySQL. The application allows users to securely register and log in, manage sessions, and perform CRUD operations on student notes.
 
-The Student Management System is a web application developed using PHP and MySQL. It allows users to manage student records by performing CRUD operations. The application provides a simple and user friendly interface for adding, viewing, updating, and deleting student information.
+Key Features:
+• User Registration and Login
+• Password Hashing
+• Session Management
+• Add Student Notes
+• View Notes
+• Edit Notes
+• Delete Notes
+• MySQL Database Integration
+• Clean and Responsive Interface
 
-## 🚀 Features
+Technologies Used:
+• PHP
+• MySQL
+• HTML
+• CSS
+• XAMPP
+• Visual Studio Code
 
-- Add new student records
-- View all student records
-- Update existing student details
-- Delete student records
-- User friendly interface
-- MySQL database integration
+This project helped me gain practical experience in PHP, database connectivity, authentication, session handling, and CRUD operations.
 
-## 🛠️ Technologies Used
+Looking forward to applying these skills in the upcoming tasks and continuing my learning journey in web development.
 
-- HTML5
-- CSS3
-- PHP
-- MySQL
-- XAMPP
-- Visual Studio Code
-
-## 📁 Project Structure
-
-```
-Task2/
-│── index.php
-│── add.php
-│── edit.php
-│── delete.php
-│── db.php
-│── style.css
-└── README.md
-```
-
-## 🗄️ Database
-
-**Database Name**
-
-```
-student_db
-```
-
-**Table Name**
-
-```
-students
-```
-
-**Table Structure**
-
-| Column | Type |
-|---------|------|
-| id | INT (AUTO_INCREMENT, PRIMARY KEY) |
-| name | VARCHAR(100) |
-| email | VARCHAR(100) |
-| course | VARCHAR(100) |
-
-## ⚙️ Installation
-
-1. Install XAMPP.
-2. Start Apache and MySQL.
-3. Copy the project folder into the XAMPP `htdocs` directory.
-4. Open phpMyAdmin.
-5. Create a database named `student_db`.
-6. Create the `students` table.
-7. Open the browser and visit:
-
-```
-http://localhost/Task2/
-```
-
-## 💻 CRUD Operations
-
-### Create
-Add new student details to the database.
-
-### Read
-Display all student records in a table.
-
-### Update
-Modify existing student information.
-
-### Delete
-Remove student records with a confirmation prompt.
-
-## 🎯 Learning Outcomes
-
-- PHP and MySQL connectivity
-- CRUD operations
-- Database management
-- Form handling
-- SQL queries
-- Basic web development
-
-## 📷 Project Preview
-
-Student Management System with:
-- Student List
-- Add Student
-- Edit Student
-- Delete Student
-- Responsive table layout
-
-## 👨‍💻 Developed By
-
-Ankith
-
-## 📄 License
-
-This project is developed for educational purposes as part of the ApexPlanet Internship Program.
+#ApexPlanet #WebDevelopment #PHP #MySQL #CRUD #StudentManagement #Database #HTML #CSS #Internship
